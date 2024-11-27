@@ -1,10 +1,5 @@
 # ICS3203-CAT2-Assembly-Morara-Lincks-148312
 
-# ICS3203-CAT2-Assembly-Morara-Lincks-148312
-
-```markdown
-# Assembly Programming Tasks
-
 ## Task 1: Control Flow and Conditional Logic
 
 ### Purpose
@@ -18,8 +13,9 @@ This program prompts the user for a number and classifies it as **POSITIVE**, **
 ```bash
 nasm -f elf32 task1.asm -o task1.o
 ld -m elf_i386 task1.o -o task1
-./task1
 ```
+./task1
+
 
 ### Challenges
 - Handling **ASCII to integer conversion**.
